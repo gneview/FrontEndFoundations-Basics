@@ -1,0 +1,59 @@
+/* changes all font */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* page fills screen */
+body {
+  padding-bottom: 60px;
+}
+
+/* size and color of the header */
+header {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+/* adds space around image */
+.image {
+  padding: 1%;
+}
+
+/* box for icons */
+.icon-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* formats icons */
+.icon {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightcyan;
+  text-align: center;
+}
+
+/* formats email icon */
+.mail {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/* pushes the repos right slightly */
+#myRepos {
+  padding-left: 50px;
+}

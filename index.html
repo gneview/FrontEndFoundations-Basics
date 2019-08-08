@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 10 Hands On</title>
+    <!--link bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!--link jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <!--link css-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--link js-->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!--display header-->
+    <header>Grace Neview-Full Stack Developer</header>
+
+    <!--my picture and bio paragraph-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto align-self-center">
+          <img class="image" src="image1.jpg" alt="Grace Neview" />
+        </div>
+        <div class="col-6 col-12-sm align-self-center">
+          <h4>
+            I'm a Full Stack developer in training. My current knowledge
+            includes HTML, CSS, JavaScript, BootStrap, FlexBox, and jQuery. I
+            can also build a computer from scratch and troubleshoot many
+            hardware related computer failures. Feel free to reach out to me via
+            email. phone, or through any of the links below. I can't wait to
+            help you with your latest project!
+          </h4>
+          <br />
+          <br />
+
+          <!--uses a button to display my GitHub Repos-->
+          <button onclick="getInfo()">See my GItHub Projects</button>
+          <br />
+          <br />
+
+          <!--where my repos will list-->
+          <ul id="myRepos"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!--display icons-->
+    <div class="icon-box">
+      <a href="https://www.facebook.com/grace.neview"
+        ><img class="icon col-4" src="Facebook-icon.jpg" alt="FB"
+      /></a>
+      <a href="https://github.com/gneview"
+        ><img class="icon col-4" src="GitHub-icon.jpg" alt="GH"
+      /></a>
+      <a href="https://www.linkedin.com/in/grace-neview-b0704692/"
+        ><img class="icon col-4" src="linkedin-icon.jpg" alt="LI"
+      /></a>
+    </div>
+
+    <!--display footer-->
+    <div class="footer" class="container">
+      <div class="row">
+        <h6 class="col">Phone: 630.338.2164</h6>
+        <h6 class="col">
+          <img class="mail" src="email-icon.jpg" alt="e" /> Email:
+          g.neview@gmail.com
+        </h6>
+      </div>
+    </div>
+  </body>
+</html>
